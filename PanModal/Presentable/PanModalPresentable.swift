@@ -233,5 +233,8 @@ public protocol PanModalPresentable: AnyObject {
      Default value is an empty implementation.
      */
     func panModalDidDismiss()
+    
+    // Addictional Proterties
+     var indicatorYOffset: CGFloat { get }
 }
 #endif

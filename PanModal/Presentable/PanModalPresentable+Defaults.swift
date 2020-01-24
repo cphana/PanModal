@@ -124,5 +124,10 @@ public extension PanModalPresentable where Self: UIViewController {
     func panModalDidDismiss() {
 
     }
+    
+    var indicatorYOffset: CGFloat {
+        return 8.0
+    }
+    
 }
 #endif
